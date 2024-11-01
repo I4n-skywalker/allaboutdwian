@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', ;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #73797b;
+}
+
+.img1{
+    max-width: 320px;
+    float: right;
+    border: 3px solid #0d101c;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+}
+.img2{
+    max-width: 200px;
+    float: left;
+    border: 3px solid #0d101c;
+    border-radius: 10px;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-bar{
+    color: #e4e2e9;
+}
+.text-bar h2{
+    font-size: 42px;
+}
+.text-bar p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #424546;
+}
+
+.li-navbar{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    justify-content: center;
+   
+
+}
+
+.li-navbar:hover{
+    background-color: #101112;
+    border: 3px solid #e4e2e9;
+    transition: 2s ease-in-out;
+}
+
+.a-navbar{
+    color: #a4adb0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.b-navbar{
+    color: #a4adb0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.ds-navbar{
+    display: flex;
+    justify-content: center;
+}
+
